@@ -31,12 +31,10 @@ $debug="0";
 // You must configure the url and key in the array below.
 
 $config = array(
-        //'url'=>'http://127.0.0.1:8080/osTicket/upload/api/http.php/tickets.json',  // URL to site.tld/api/tickets.json
-		'url'=>'http://13.250.151.174/itsm/upload/api/http.php/tickets.json',  // URL to site.tld/api/tickets.json
-
-		//'key'=>'D1B7EABC38D658881CBA523F2CFC13F8'  // API Key goes here
-		'key'=>'176BA99B5E94CE7E24A2C4D11AE81791'
+        'url'=>'http://13.250.151.174/itsm/upload/api/http.php/tickets.json',  // URL to site.tld/api/tickets.json
+		'key'=>'176BA99B5E94CE7E24A2C4D11AE81791'  // API Key goes here
 );
+
 # NOTE: some people have reported having to use "http://your.domain.tld/api/http.php/tickets.json" instead.
 
 if($config['url'] === 'http://your.domain.tld/api/tickets.json') {
