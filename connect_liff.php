@@ -1,5 +1,5 @@
 <?php
-   $accessToken = "eXfc2yorldMU6wdiaqrjWdaBkZKyfVIWk1rpGzms5BFj+Z8agphZ5tliqnt7TunqJbIOjvYK/KiM0Yrzaaqd4A53t95aNBpnRVW2Y0rC4jplDrEVuu3GXoOF4u3QlAl8w4yPcp2yce/t3saO44Ea3gdB04t89/1O/w1cDnyilFU=";//copy ข้อความ Channel access token ตอนที่ตั้งค่า
+   $accessToken = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";//copy ข้อความ Channel access token ตอนที่ตั้งค่า
    $content = file_get_contents('php://input');
    $arrayJson = json_decode($content, true);
    $arrayHeader = array();
@@ -8,7 +8,7 @@
 
 	  //$arrayPostData['to'] = $id;
       $arrayPostData['view']['type'] = "full";
-      $arrayPostData['view']['url'] = "https://testliffnow.herokuapp.com/";
+      $arrayPostData['view']['url'] = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 
 	  pushMsg($arrayHeader,$arrayPostData);
