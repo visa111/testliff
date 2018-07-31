@@ -1,7 +1,7 @@
 <?php
 include('header.php');
-if($_SESSION['user'])
-{
+//if($_SESSION['user'])
+//{
 
    include('db_connect.php');
 
@@ -49,10 +49,10 @@ if($_SESSION['user'])
 
 
 <?php
-}else{
+//}else{
 
-    echo "Authentication failed";
+//    echo "Authentication failed";
 
-}
+//}
 include('footer.php');
 ?>
