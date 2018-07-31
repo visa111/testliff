@@ -20,7 +20,7 @@ $message=$_POST['message'];
 
 $AssetNumber=$_POST['AssetNumber'];
 
-//echo "$useropen : $email : $phone : $select_topic : $subject : $message";
+echo "$useropen : $email : $phone : $select_topic : $subject : $message";
 
 
 
