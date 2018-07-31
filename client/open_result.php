@@ -3,15 +3,15 @@ include('header.php');
 //if($_SESSION['user'])
 //{
 
-   include('db_connect.php');
+   //include('db_connect.php');
 
-    error_reporting(~E_NOTICE);
+    //error_reporting(~E_NOTICE);
 
-    $username = $_SESSION['user'];
+    //$username = $_SESSION['user'];
 
-    $sqluser="select email, phone, phone_ext from ost_staff where username='$username'";
-    $result = mysqli_query($link,$sqluser);
-    $row = mysqli_fetch_array($result);
+    //$sqluser="select email, phone, phone_ext from ost_staff where username='$username'";
+    //$result = mysqli_query($link,$sqluser);
+    //$row = mysqli_fetch_array($result);
 
     //echo "$username $row[0] , $row[1] , $row[2]";
 ?>
