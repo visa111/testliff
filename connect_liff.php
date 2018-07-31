@@ -7,8 +7,8 @@
    $arrayHeader[] = "Authorization: Bearer {$accessToken}";
 
 	  //$arrayPostData['to'] = $id;
-      $arrayPostData['view'][0]['type'] = "full";
-      $arrayPostData['view'][0]['url'] = "https://testliffnow.herokuapp.com/";
+      $arrayPostData['view']['type'] = "full";
+      $arrayPostData['view']['url'] = "https://testliffnow.herokuapp.com/";
 
 
 	  pushMsg($arrayHeader,$arrayPostData);
