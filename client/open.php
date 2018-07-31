@@ -1,9 +1,9 @@
 <?php
 include('header.php');
-if($_SESSION['user'])
-{
+//if($_SESSION['user'])
+//{
 
-   include('db_connect.php');
+  // include('db_connect.php');
 
     error_reporting(~E_NOTICE);
 
@@ -192,10 +192,10 @@ while ($row_topic = mysqli_fetch_array($result_topic))
 
 
 <?php
-}else{
+//}else{
 
-    echo "Authentication failed";
+//    echo "Authentication failed";
 
-}
+//}
 include('footer.php');
 ?>
